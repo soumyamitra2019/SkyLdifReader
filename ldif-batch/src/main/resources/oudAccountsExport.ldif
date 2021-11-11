@@ -1,0 +1,173 @@
+dn: ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: organizationalUnit
+objectClass: top
+ou: Accounts
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PUFjY291bnRzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgaWRtLWF1dGggcmVhZCBhY2Nlc3MgdG8gYWxsIGF0dHJpYnV0ZXMiOyBhbGxvdyhyZWFkLCBzZWFyY2gsIGNvbXBhcmUsZXhwb3J0KSh1c2VyZG4gPSAibGRhcDovLy9jbj1pZG0tYXV0aCxvdT1BZG1pbmlzdHJhdG9ycyxkYz1za3l0dixkYz1jbyxkYz1ueiIpOykg
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PUFjY291bnRzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgc3luY2FkbWluIHJlYWQgYWNjZXNzIHRvIGFsbCBhdHRyaWJ1dGVzIjsgYWxsb3cocmVhZCwgc2VhcmNoLCBjb21wYXJlLGV4cG9ydCkodXNlcmRuID0gImxkYXA6Ly8vY249c3luY2FkbWluLG91PUFkbWluaXN0cmF0b3JzLGRjPXNreXR2LGRjPWNvLGRjPW56Iik7KSA=
+aci: (target = "ldap:///ou=Accounts,dc=skytv,dc=co,dc=nz")(targetattr = "*") (version 3.0; acl "Allow oud-extract read access to all attributes"; allow (compare,search,read,export) userdn = "ldap:///cn=oud-extract,ou=Administrators,dc=skytv,dc=co,dc=nz";)
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PUFjY291bnRzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgaWRtLXVzZXItc2VydmljZSByZWFkIGFjY2VzcyB0byBhbGwgYXR0cmlidXRlcyI7IGFsbG93KHJlYWQsIHNlYXJjaCwgY29tcGFyZSwgZXhwb3J0KSh1c2VyZG4gPSAibGRhcDovLy9jbj1pZG0tdXNlci1zZXJ2aWNlLG91PUFkbWluaXN0cmF0b3JzLGRjPXNreXR2LGRjPWNvLGRjPW56Iik7KSA=
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PUFjY291bnRzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgaWRtLWF1dGgtcmVhZCByZWFkIGFjY2VzcyB0byBhbGwgYXR0cmlidXRlcyI7IGFsbG93KHJlYWQsIHNlYXJjaCwgY29tcGFyZSwgZXhwb3J0KSh1c2VyZG4gPSAibGRhcDovLy9jbj1pZG0tdXNlci1zZXJ2aWNlLG91PUFkbWluaXN0cmF0b3JzLGRjPXNreXR2LGRjPWNvLGRjPW56Iik7KSA=
+ds-sync-hist:: YWNpOjAwMDAwMTZjZWYyZTc2MGUyNzc3MDAwMDhjYzg6YWRkOih0YXJnZXQgPSAibGRhcDovLy9vdT1BY2NvdW50cyxkYz1za3l0dixkYz1jbyxkYz1ueiIpKHRhcmdldGF0dHIgPSAiKiIpKHZlcnNpb24gMy4wOyBhY2wgIkFsbG93IGlkbS1hdXRoLXJlYWQgcmVhZCBhY2Nlc3MgdG8gYWxsIGF0dHJpYnV0ZXMiOyBhbGxvdyhyZWFkLCBzZWFyY2gsIGNvbXBhcmUsIGV4cG9ydCkodXNlcmRuID0gImxkYXA6Ly8vY249aWRtLXVzZXItc2VydmljZSxvdT1BZG1pbmlzdHJhdG9ycyxkYz1za3l0dixkYz1jbyxkYz1ueiIpOykg
+ds-sync-hist: modifytimestamp:0000016cef2e760e277700008cc8:repl:20190901233455Z
+ds-sync-hist: modifiersname:0000016cef2e760e277700008cc8:repl:cn=Directory Manager
+entryUUID: bde4c834-3334-3a14-a656-11d7afc93261
+modifyTimestamp: 20190901233455Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10000002,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120555Z
+nzCoSkyDateOfBirth: 19570928000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10000002
+nzCoSkyOccurrences: 202
+nzCoSkyOccurrences: 232
+nzCoSkyOccurrences: 242
+ds-sync-hist: nzcoskyoccurrences:00000153c9527e695bc5001e3f90:del:9999
+ds-sync-hist: modifytimestamp:00000153c9527e695bc5001e3f90:repl:20160330205900Z
+ds-sync-hist: modifiersname:00000153c9527e695bc5001e3f90:repl:CN=Directory Manager
+entryUUID: e18e71f4-21f5-3777-9a95-608cd19b586a
+modifyTimestamp: 20160330205900Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10000003,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20171017002351Z
+nzCoSkyDateOfBirth: 19430802000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10000003
+nzCoSkyOccurrences: 202
+ds-sync-hist: nzcoskylastmodifytime:0000015f2aa755675bc500c695ff:repl:20171017002351Z
+ds-sync-hist: nzcoskystatus:0000015f2aa755675bc500c695ff:repl:false
+ds-sync-hist: nzcoskyaccountnumber:0000015f2aa755675bc500c695ff:repl:TCL:10000003
+ds-sync-hist: modifytimestamp:0000015f2aa755675bc500c695ff:repl:20171017140530Z
+ds-sync-hist: modifiersname:0000015f2aa755675bc500c695ff:repl:cn=directory manager
+entryUUID: 0bbef4be-bd0a-36e9-8522-f9ec102624df
+modifyTimestamp: 20171017140530Z
+modifiersName: cn=directory manager
+
+dn: nzCoSkyAccountNumber=TCL:10000005,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120555Z
+nzCoSkyDateOfBirth: 19740919000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10000005
+nzCoSkyOccurrences: 202
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48d9:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48d9:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48d9:repl:CN=Directory Manager
+entryUUID: ed6491e5-77ac-368d-a170-6b09ef07fc3b
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10000013,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120555Z
+nzCoSkyDateOfBirth: 19541122000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10000013
+nzCoSkyOccurrences: 202
+nzCoSkyOccurrences: 233
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48da:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48da:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48da:repl:CN=Directory Manager
+entryUUID: 65e132ea-de3c-3a72-97b0-5b635c6563e6
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10000019,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120555Z
+nzCoSkyDateOfBirth: 19400605000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10000019
+nzCoSkyOccurrences: 202
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48db:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48db:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48db:repl:CN=Directory Manager
+entryUUID: 7b067faf-10c5-3254-88ad-b220b766d7e1
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:100078,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20180404001122Z
+nzCoSkyDateOfBirth: 19610317000000Z
+nzCoSkyCreateTime: 20130827130505Z
+nzCoSkyStatus: true
+nzcoskyaccountnumber: TCL:100078
+nzCoSkyOccurrences: 202
+nzCoSkyOccurrences: 260
+nzCoSkyOccurrences: 242
+ds-sync-hist: nzcoskylastmodifytime:000001629130b87f2f0800dcba43:repl:20180404001122Z
+ds-sync-hist: nzcoskydateofbirth:000001629130b87f2f0800dcba43:repl:19610317000000Z
+ds-sync-hist: nzcoskystatus:000001629130b87f2f0800dcba43:repl:true
+ds-sync-hist: nzcoskyaccountnumber:000001629130b87f2f0800dcba43:repl:TCL:100078
+ds-sync-hist: nzcoskyoccurrences:000001629130b87f2f0800dcba43:repl:202
+ds-sync-hist: nzcoskyoccurrences:000001629130b87f2f0800dcba43:repl:260
+ds-sync-hist: nzcoskyoccurrences:000001629130b87f2f0800dcba43:repl:242
+ds-sync-hist: modifytimestamp:000001629130b87f2f0800dcba43:repl:20180404150512Z
+ds-sync-hist: modifiersname:000001629130b87f2f0800dcba43:repl:cn=directory manager
+entryUUID: 33608b51-6388-3f03-bb93-628aa6947872
+modifyTimestamp: 20180404150512Z
+modifiersName: cn=directory manager
+
+dn: nzCoSkyAccountNumber=TCL:10027,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120540Z
+nzCoSkyDateOfBirth: 19701005000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10027
+nzCoSkyOccurrences: 202
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48dd:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48dd:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48dd:repl:CN=Directory Manager
+entryUUID: 150d9e54-8237-3382-8c3c-74fe5ef1eb52
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10028,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160322232502Z
+nzCoSkyDateOfBirth: 19380509000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: true
+nzcoskyaccountnumber: TCL:10028
+nzCoSkyOccurrences: 202
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48de:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48de:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48de:repl:CN=Directory Manager
+entryUUID: 26768b88-aad5-3898-98fb-751d1850cec2
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
+
+dn: nzCoSkyAccountNumber=TCL:10036,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyAccount
+objectClass: top
+nzCoSkyLastModifyTime: 20160124120540Z
+nzCoSkyDateOfBirth: 19680503000000Z
+nzCoSkyCreateTime: 20110718014143Z
+nzCoSkyStatus: false
+nzcoskyaccountnumber: TCL:10036
+nzCoSkyOccurrences: 202
+nzCoSkyOccurrences: 232
+ds-sync-hist: nzcoskyoccurrences:00000153c99758dc5bc5001e48df:del:9999
+ds-sync-hist: modifytimestamp:00000153c99758dc5bc5001e48df:repl:20160330221412Z
+ds-sync-hist: modifiersname:00000153c99758dc5bc5001e48df:repl:CN=Directory Manager
+entryUUID: eb0356e2-bc3a-3d5f-9011-471fbdf4ed75
+modifyTimestamp: 20160330221412Z
+modifiersName: CN=Directory Manager
