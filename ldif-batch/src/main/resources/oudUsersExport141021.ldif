@@ -1,0 +1,342 @@
+dn: ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+aci: (target = "ldap:///ou=Users,dc=skytv,dc=co,dc=nz")(targetattr = "*")(version 3.0; acl "Allow idm-auth read access to all attributes"; allow(read, search, compare,export)(userdn = "ldap:///cn=idm-auth,ou=Administrators,dc=skytv,dc=co,dc=nz");)
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PVVzZXJzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgc3RhdHNhZG1pbiByZWFkIGFjY2VzcyB0byBhbGwgYXR0cmlidXRlcyI7IGFsbG93KHJlYWQsIHNlYXJjaCwgY29tcGFyZSxleHBvcnQpKHVzZXJkbiA9ICJsZGFwOi8vL2NuPXN0YXRzYWRtaW4sb3U9QWRtaW5pc3RyYXRvcnMsZGM9c2t5dHYsZGM9Y28sZGM9bnoiKTspIA==
+aci: (target = "ldap:///ou=Users,dc=skytv,dc=co,dc=nz")(targetattr = "*") (version 3.0; acl "Allow oud-extract read access to all attributes"; allow (compare,search,read,export) userdn = "ldap:///cn=oud-extract,ou=Administrators,dc=skytv,dc=co,dc=nz";)
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PVVzZXJzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgaWRtLXVzZXItc2VydmljZSByZWFkL3dyaXRlIGFjY2VzcyB0byBhbGwgYXR0cmlidXRlcyI7IGFsbG93KHJlYWQsIHdyaXRlLCBzZWFyY2gsIGNvbXBhcmUsIGV4cG9ydCkodXNlcmRuID0gImxkYXA6Ly8vY249aWRtLXVzZXItc2VydmljZSxvdT1BZG1pbmlzdHJhdG9ycyxkYz1za3l0dixkYz1jbyxkYz1ueiIpOykg
+aci:: KHRhcmdldCA9ICJsZGFwOi8vL291PVVzZXJzLGRjPXNreXR2LGRjPWNvLGRjPW56IikodGFyZ2V0YXR0ciA9ICIqIikodmVyc2lvbiAzLjA7IGFjbCAiQWxsb3cgaWRtLWF1dGgtcmVhZCByZWFkL3dyaXRlIGFjY2VzcyB0byBhbGwgYXR0cmlidXRlcyI7IGFsbG93KHJlYWQsIHdyaXRlLCBzZWFyY2gsIGNvbXBhcmUsIGV4cG9ydCkodXNlcmRuID0gImxkYXA6Ly8vY249aWRtLXVzZXItc2VydmljZSxvdT1BZG1pbmlzdHJhdG9ycyxkYz1za3l0dixkYz1jbyxkYz1ueiIpOykg
+ds-sync-hist:: YWNpOjAwMDAwMTZjZWYyZTc2MGUyNzc3MDAwMDhjYzk6YWRkOih0YXJnZXQgPSAibGRhcDovLy9vdT1Vc2VycyxkYz1za3l0dixkYz1jbyxkYz1ueiIpKHRhcmdldGF0dHIgPSAiKiIpKHZlcnNpb24gMy4wOyBhY2wgIkFsbG93IGlkbS1hdXRoLXJlYWQgcmVhZC93cml0ZSBhY2Nlc3MgdG8gYWxsIGF0dHJpYnV0ZXMiOyBhbGxvdyhyZWFkLCB3cml0ZSwgc2VhcmNoLCBjb21wYXJlLCBleHBvcnQpKHVzZXJkbiA9ICJsZGFwOi8vL2NuPWlkbS11c2VyLXNlcnZpY2Usb3U9QWRtaW5pc3RyYXRvcnMsZGM9c2t5dHYsZGM9Y28sZGM9bnoiKTspIA==
+ds-sync-hist: modifytimestamp:0000016cef2e760e277700008cc9:repl:20190901233455Z
+ds-sync-hist: modifiersname:0000016cef2e760e277700008cc9:repl:cn=Directory Manager
+entryUUID: 721b5052-cb0b-3bf5-8619-9bae36f5b9ac
+modifyTimestamp: 20190901233455Z
+modifiersName: cn=Directory Manager
+
+dn: uid=7b559476-7d27-4b38-b7fa-18402ec673e2,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyAuthTokenSalt: 565ec472-0330-4f61-88bb-3921dc390b7b
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyAccountLinkedTimestamp: 20120727073319Z
+nzCoSkyRoleName:: QWNjb3VudEhvbGRlci1JQ09NUzoyMzg2MzA5MDIg
+uid: 7b559476-7d27-4b38-b7fa-18402ec673e2
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:238630902,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:hoglog@ewc.co.nz.dummy
+userPassword: {SSHA512}LnqDRlG4Xgr5ilZTPfcJhJjS6Ng6JgRKNkQMhbtzoJ0+EzeHNFZ6lGSvZRRSN9kAPDbBt7/jhAkZydLPK2YSnysyiTc8K9Gf
+givenName: Shane
+cn: Shane Humberstone
+sn: Humberstone
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: hoglog@ewc.co.nz.dummy
+nzCoSkyAccountActive: TRUE
+mail: hoglog@ewc.co.nz.dummy
+displayName: Shane
+ds-pwp-account-disabled: FALSE
+ds-sync-hist:: bnpjb3NreXJvbGVuYW1lOjAwMDAwMTU2MDNhNTlhZDQ1YmM1MDAzMzRiMzY6cmVwbDpBY2NvdW50SG9sZGVyLUlDT01TOjIzODYzMDkwMiA=
+ds-sync-hist: nzcoskylinkedaccounts:0000015603a59ad45bc500334b36:repl:nzCoSkyAccountNumber=ICOMS:238630902,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifytimestamp:0000015603a59ad45bc500334b36:repl:20160719145319Z
+ds-sync-hist: modifiersname:0000015603a59ad45bc500334b36:repl:cn=Directory Manager
+entryUUID: dc216db1-73eb-3c9a-ac5b-119489bcc3b8
+createTimestamp: 20120727073319Z
+modifyTimestamp: 20160719145319Z
+modifiersName: cn=Directory Manager
+
+dn: uid=e10b5895-8b56-4861-b97d-5a364c81d65b,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyAuthTokenSalt: eb8742be-d697-4728-9948-9295092f0fb0
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyAccountLinkedTimestamp: 20101123015459Z
+nzCoSkyRoleName: AccountHolder-ICOMS:124115401
+uid: e10b5895-8b56-4861-b97d-5a364c81d65b
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:124115401,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:l_woods58@hotmail.com.dummy
+userPassword: {SSHA512}AdXlKqSfSiffFdoIm9jVW8adctTLsc2AQ75Agp6dJfgutwE72nieEs60I4Xv7bcLfBKAosxoKbDstz0WHoHrdtMvPsMBgQKY
+givenName: Lorraine
+cn: Lorraine Woods
+sn: Woods
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: l_woods58@hotmail.com.dummy
+nzCoSkyAccountActive: TRUE
+mail: l_woods58@hotmail.com.dummy
+nzCoSkyParentalPin: 3108
+displayName: Lgwoods
+ds-pwp-account-disabled: FALSE
+ds-sync-hist: pwdfailuretime:000001664c0fcc355bc5015240c8:attrDel
+ds-sync-hist: modifytimestamp:000001664c0fcc355bc5015240c8:repl:20181007010635Z
+ds-sync-hist: modifiersname:000001664c0fcc355bc5015240c8:repl:cn=Internal Client,cn=Root DNs,cn=config
+entryUUID: d72fe000-7da8-3c0e-bace-591b9dd6e7d2
+createTimestamp: 20100519074315Z
+modifyTimestamp: 20181007010635Z
+modifiersName: cn=Internal Client,cn=Root DNs,cn=config
+
+dn: uid=26ed13ac-3e3e-4121-9acf-cc56c1288504,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyPasswordResetTokenStatus: used
+nzCoSkyBlockAdultContent: true
+nzCoSkyPasswordResetTokenExpiry: 20180806232600Z
+nzCoSkyAuthTokenSalt: 9a85bfc5-dd23-498d-9dbc-88aa8fcf3e91
+nzCoSkyReceiveMarketingNewsLetter: true
+nzCoSkyAccountActiveToken: 16deb7de-273f-4a84-b3d8-17df64817279
+nzCoSkyAccountLinkedTimestamp: 20180708022150Z
+nzCoSkyRoleName: AccountHolder-ICOMS:17256202
+nzCoSkyAccountActiveTokenExpiry: 20180709022131Z
+uid: 26ed13ac-3e3e-4121-9acf-cc56c1288504
+nzCoSkyAccountActiveTokenStatus: initialized
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:17256202,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyParentalControlsEnabled: true
+nzCoSkyPasswordResetToken: e9142c2c-249d-4198-b617-3471243fe47c
+nzCoSkyLinkedSocialEmail: SKY:michael@atouchofgreen.co.nz.dummy
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+userPassword: {SSHA512}xWKUZWXP4QpXrHuedEqTWe6agK1Bl/5kiI+6iVKGju6DDXX9fWvyYPVODo71+LInKM90JpFM8KvXPX7iNJmgpW+tseJ14trL
+givenName: Michael
+cn: Michael Zame
+sn: Zame
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: michael@atouchofgreen.co.nz.dummy
+nzCoSkyAccountActive: true
+mail: michaelzame@hotmail.com.dummy
+displayName: Michael
+ds-pwp-account-disabled: false
+ds-sync-hist: nzcoskypasswordresettokenstatus:000001650c6beac55bc5013a96d6:repl:used
+ds-sync-hist: nzcoskypasswordresettokenexpiry:000001650c696e715bc5013a966f:repl:20180806232600Z
+ds-sync-hist: nzcoskylinkedsocialemail:000001650c6beac55bc5013a96d6:repl:SKY:michael@atouchofgreen.co.nz
+ds-sync-hist: nzcoskypasswordresettoken:000001650c6beac55bc5013a96d6:repl:e9142c2c-249d-4198-b617-3471243fe47c
+ds-sync-hist: userpassword:000001650c6beac55bc5013a96d6:repl:{SSHA512}YYQsNFRtvXjitDzSmLGfVfvroY3WJ8wM0FvKEOEn6ywlUrXB8ClY67yFZSlMk5xGi6/r1DWnTDMX6GcGFzyErKLqObhJcJyE
+ds-sync-hist: nzcoskyprimarymail:000001650c696e715bc5013a966f:repl:michael@atouchofgreen.co.nz
+ds-sync-hist: pwdfailuretime:000001650c6beac55bc5013a96d6:attrDel
+ds-sync-hist: pwdchangedtime:000001650c6beac55bc5013a96d6:repl:20180805232843.717Z
+ds-sync-hist: modifytimestamp:000001650c6beac55bc5013a96d6:repl:20180805232843Z
+ds-sync-hist: modifiersname:000001650c6beac55bc5013a96d6:repl:cn=directory manager
+entryUUID: 4a2628da-b844-34d1-a2ba-defede97dfc3
+createTimestamp: 20110625073056Z
+pwdChangedTime: 20180805232843.717Z
+modifyTimestamp: 20180805232843Z
+modifiersName: cn=directory manager
+
+dn: uid=c4fdafc8-c35b-437a-ae4b-35b00d25c144,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyPasswordResetTokenStatus: used
+nzCoSkyAuthTokenSalt: e3afaca6-0dc0-4d67-a627-48aaec63e1e6
+nzCoSkyPasswordResetTokenExpiry: 20190105105857Z
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyAccountLinkedTimestamp: 20130522051834Z
+nzCoSkyRoleName:: QWNjb3VudEhvbGRlci1JQ09NUzoxNjg0NjkzMDQg
+uid: c4fdafc8-c35b-437a-ae4b-35b00d25c144
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:168469304,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:boo.pipi@yahoo.co.nz.dummy
+nzCoSkyPasswordResetToken: 052df226-cf2c-4879-b9a9-9ddbecdf33cc
+userPassword: {SSHA512}ykwuIThM4vakuj+FVXyKTmJyz2pFsVZQIyBPCOc5ldu1Y2mpVJIbXisEoMw0ehYzZ111v6H8LvyLOIhpLoKbf/P0RrMd1QeE
+givenName: Rebecca
+cn: Rebecca McLeod
+sn: McLeod
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: boo.pipi@yahoo.co.nz.dummy
+nzCoSkyAccountActive: TRUE
+mail: boo.pipi@yahoo.co.nz.dummy
+displayName: Rebecca
+ds-pwp-account-disabled: FALSE
+ds-sync-hist: nzcoskypasswordresettokenstatus:0000016818852c9c5bc50161e14d:repl:used
+ds-sync-hist: nzcoskypasswordresettokenexpiry:0000016818841a365bc50161e149:repl:20190105105857Z
+ds-sync-hist: nzcoskylinkedsocialemail:0000016818852c9c5bc50161e14d:repl:SKY:boo.pipi@yahoo.co.nz
+ds-sync-hist: nzcoskypasswordresettoken:0000016818852c9c5bc50161e14d:repl:052df226-cf2c-4879-b9a9-9ddbecdf33cc
+ds-sync-hist: userpassword:0000016818852c9c5bc50161e14d:repl:{SSHA512}fOD0P+VaGE3WRT/9L7blOTGdduIJYCgay9ZIjhBXcrcOCkWO0aYEXbhoX3/TpxZyMvV4X5Au1ZTjMXY+3oGwvq1JawLyrzMD
+ds-sync-hist: nzcoskyprimarymail:0000016818841a365bc50161e149:repl:boo.pipi@yahoo.co.nz
+ds-sync-hist: pwdfailuretime:0000016818852c9c5bc50161e14d:attrDel
+ds-sync-hist: pwdchangedtime:0000016818852c9c5bc50161e14d:repl:20190104110007.452Z
+ds-sync-hist: modifytimestamp:0000016818852c9c5bc50161e14d:repl:20190104110007Z
+ds-sync-hist: modifiersname:0000016818852c9c5bc50161e14d:repl:cn=directory manager
+entryUUID: 4ff39c0f-5730-3f69-8c78-8e84457d463e
+createTimestamp: 20130522051834Z
+pwdChangedTime: 20190104110007.452Z
+modifyTimestamp: 20190104110007Z
+modifiersName: cn=directory manager
+
+dn: uid=2175c7a7-880e-456a-a3ba-4c6b401cb9a8,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: FALSE
+nzCoSkyAuthTokenSalt: 1294513753000
+nzCoSkyReceiveMarketingNewsLetter: FALSE
+uid: 2175c7a7-880e-456a-a3ba-4c6b401cb9a8
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:bds.harvey@xtra.co.nz.dummy
+userPassword: {SSHA512}IpMzSB1fRbLN6TfspA9IVD51RpKdDNZKyPmcrWahkx8RaBqMbNcOoViAn7KWaoiEYnoNfm4usgZsW/Og1GZUoMXgDE3/ICDJ
+givenName: brendon
+cn: brendon harvey
+sn: harvey
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: bds.harvey@xtra.co.nz.dummy
+nzCoSkyAccountActive: TRUE
+mail: bds.harvey@xtra.co.nz.dummy
+displayName: brendon
+ds-pwp-account-disabled: FALSE
+ds-sync-hist: nzcoskydateofbirth:0000015e7366c7f95bc500bbbe17:attrDel
+ds-sync-hist: nzcoskyrolename:0000015e7366c7f95bc500bbbe17:attrDel
+ds-sync-hist: nzcoskyaccountlinkedtimestamp:0000015e7366c7f95bc500bbbe17:attrDel
+ds-sync-hist: nzcoskylinkedaccounts:0000015e7366c7f95bc500bbbe17:attrDel
+ds-sync-hist: nzcoskyaccountnumber:0000015e7366c7f95bc500bbbe17:attrDel
+ds-sync-hist: nzcoskyprimarymail:0000015e7366c7f95bc500bbbe17:repl:bds.harvey@xtra.co.nz
+ds-sync-hist: modifytimestamp:0000015e7366c7f95bc500bbbe17:repl:20170912000429Z
+ds-sync-hist: modifiersname:0000015e7366c7f95bc500bbbe17:repl:cn=directory manager
+entryUUID: f2ca9da6-fd22-3d0d-a83f-a60babe03640
+createTimestamp: 20110108190913Z
+modifyTimestamp: 20170912000429Z
+modifiersName: cn=directory manager
+
+dn: uid=98392e13-57eb-42ed-b14b-e4ca1abadbe2,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyAuthTokenSalt: b81150b9-587e-478c-9d49-2e7314e1e28f
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyParentalControlsEnabled: TRUE
+uid: 98392e13-57eb-42ed-b14b-e4ca1abadbe2
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:ashley_phillips@bnz.co.nz.dummy
+userPassword: {SSHA512}PiCl58SKbFPvGGo+2Fy5Rw28Hv9wVwFJJxZ4EJxPRbfBLAMQqaoOE2xBBItFYDlEVFkiMJ0JngySv2cRugV4I8cGHWTL+YWG
+givenName: Ashley
+cn: Ashley Phillips
+sn: Phillips
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: ashley_phillips@bnz.co.nz.dummy
+nzCoSkyAccountActive: TRUE
+mail: ashley_phillips@bnz.co.nz.dummy
+displayName: Ashley
+ds-pwp-account-disabled: FALSE
+entryUUID: 8af36554-4699-3e87-903f-7e9344d1ff70
+createTimestamp: 20131001214235Z
+modifyTimestamp: 20131001214307Z
+
+dn: uid=22eb8ddc-d7ee-4d42-b265-16ca33a62478,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyAuthTokenSalt: 92aa5426-46a6-4cec-80dd-0e8fcafc0f90
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyAccountLinkedTimestamp: 20131008184056Z
+nzCoSkyRoleName:: QWNjb3VudEhvbGRlci1JQ09NUzozMjU1OTAzIA==
+uid: 22eb8ddc-d7ee-4d42-b265-16ca33a62478
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:3255903,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:jazmin_aiavao@hotmail.com.dummy
+userPassword: {SSHA512}tdhLI3SkuYPCoSsRvhw6HLy3LKUxZzRCg95+Q1XjqTNTLiZr8ddpFaEB++E0b8r8JfnpYvKq25R2xnsiZChdNC2OjC8RIHPY
+givenName: Jazmin
+cn: Jazmin Aiavao
+sn: Aiavao
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: jazmin_aiavao@hotmail.com.dummy
+nzCoSkyAccountActive: TRUE
+mail: jazmin_aiavao@hotmail.com.dummy
+displayName: Jazmin
+ds-pwp-account-disabled: FALSE
+ds-sync-hist:: bnpjb3NreXJvbGVuYW1lOjAwMDAwMTU2MDNhODc2ZjQ1YmM1MDAzNjI4OGE6cmVwbDpBY2NvdW50SG9sZGVyLUlDT01TOjMyNTU5MDMg
+ds-sync-hist: nzcoskylinkedaccounts:0000015603a876f45bc50036288a:repl:nzCoSkyAccountNumber=ICOMS:3255903,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifytimestamp:0000015603a876f45bc50036288a:repl:20160719145627Z
+ds-sync-hist: modifiersname:0000015603a876f45bc50036288a:repl:cn=Directory Manager
+entryUUID: 8e1b7a69-d8e8-3a6c-a257-4ace49bab608
+createTimestamp: 20131008184056Z
+modifyTimestamp: 20160719145627Z
+modifiersName: cn=Directory Manager
+
+dn: uid=ee58ffe9-d9fa-4632-831b-e84ae108dfe9,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyAuthTokenSalt: 6a6e65ce-a68a-4e90-a8fb-08dbf099128a
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyParentalControlsEnabled: TRUE
+uid: ee58ffe9-d9fa-4632-831b-e84ae108dfe9
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+nzCoSkyLinkedSocialEmail: SKY:sharonsmash@hotmail.com.dummy
+userPassword: {SSHA512}v1ri+e1qQaV1FXt7UwrYyqiTUES4wKlaNdvKvze5KPfboiBiVk7HHBTLHVk+Xcl55et/B0HHvPlsWaAB9HomO1CNTy7rCm3V
+givenName: Sharon
+cn: Sharon Walther
+sn: Walther
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: sharonsmash@hotmail.com.dummy
+nzCoSkyAccountActive: TRUE
+mail: sharonsmash@hotmail.com.dummy
+displayName: Sharon
+ds-pwp-account-disabled: FALSE
+entryUUID: d8fe3489-7d0b-3e6b-a2f4-60f71c99bd6c
+createTimestamp: 20140118204608Z
+modifyTimestamp: 20140118204654Z
+
+dn: uid=aae72412-6fdf-4056-ab3f-809d0baae997,ou=Users,dc=skytv,dc=co,dc=nz
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: nzCoSkyPerson
+nzCoSkyPasswordResetTokenStatus: used
+nzCoSkyBlockAdultContent: TRUE
+nzCoSkyPasswordResetTokenExpiry: 20160807072731Z
+nzCoSkyAuthTokenSalt: 9ab0af14-2d9c-465a-b4bf-42b57dd8671a
+nzCoSkyReceiveMarketingNewsLetter: TRUE
+nzCoSkyAccountLinkedTimestamp: 20150710235357Z
+nzCoSkyRoleName:: QWNjb3VudEhvbGRlci1JQ09NUzozNDM1ODA3IA==
+uid: aae72412-6fdf-4056-ab3f-809d0baae997
+nzCoSkyParentalControlsEnabled: TRUE
+nzCoSkyLinkedAccounts: nzCoSkyAccountNumber=ICOMS:3435807,ou=Accounts,dc=skytv,dc=co,dc=nz
+nzCoSkyLinkedSocialEmail: SKY:zane_vasea@hotmail.com.dummy
+nzCoSkyPasswordResetToken: e4b71ba3-934d-4ddd-afc3-c8b7395c2a29
+nzCoSkyTermConditionTimestamp: 20160125000000Z
+userPassword: {SSHA512}XtSHPqSy2S4h3R7ygNEje7XJCM0GwulhuM7Lj1qJQ5J+dARVAajIv/Oips2rZh+y+bmcTeM9adztOhAfonKRSvtMba9P3DMm
+givenName: Zane
+cn: Zane Vasea
+sn: Vasea
+nzCoSkyParentalRatingLevel: 8
+nzCoSkyPrimaryMail: zane_vasea@hotmail.com.dummy
+nzCoSkyAccountActive: TRUE
+mail: zane_vasea@hotmail.com.dummy
+nzCoSkyParentalPin: 1234
+displayName: Zane
+ds-pwp-account-disabled: FALSE
+createTimestamp: 20150706041944Z
+pwdChangedTime: 20160806072906.367Z
+ds-sync-hist: pwdfailuretime:0000016bced0909f27db0000558c:attrDel
+ds-sync-hist: modifytimestamp:0000016bced0909f27db0000558c:repl:20190707234143Z
+ds-sync-hist: modifiersname:0000016bced0909f27db0000558c:repl:cn=Internal Client,cn=Root DNs,cn=config
+entryUUID: 1535467d-8a04-3e27-be3f-e50178572a3a
+modifyTimestamp: 20190707234143Z
+modifiersName: cn=Internal Client,cn=Root DNs,cn=config

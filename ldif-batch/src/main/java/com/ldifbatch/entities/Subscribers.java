@@ -17,4 +17,8 @@ import lombok.ToString;
 public class Subscribers {
 	@JsonProperty("Subscriber")
 	Subscriber subscriber;
+	@JsonProperty("TransactionDateTime")
+	String transactionDateTime;
+	@JsonProperty("TransactionNo")
+	String transactionNumber;
 }

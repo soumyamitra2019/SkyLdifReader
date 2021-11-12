@@ -12,14 +12,14 @@ import lombok.Data;
 import lombok.ToString;
 @Data
 @ToString
-public class OudAccountExportMapper {
+public class OudOccuranceExportMapper {
 	List<OudAccountExport> accountsExports;
 	
-	public OudAccountExportMapper() {
+	public OudOccuranceExportMapper() {
 
 	}
 
-	public OudAccountExportMapper(List<HashMap<String,String>> maps) {
+	public OudOccuranceExportMapper(List<HashMap<String,String>> maps) {
 		OudAccountExport accountsExport;
 
 //		accountsExports = new ArrayList<OudAccountExport>();

@@ -1,0 +1,238 @@
+dn: ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: organizationalUnit
+objectClass: top
+ou: Occurrences
+ds-sync-hist: dn:00000160f9cd5b112f0800721d06:add
+entryUUID: d9f5c899-9b4e-43be-8cd5-06d2f2b2c39b
+createTimestamp: 20180115123113Z
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20180115123113Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=62340013,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 1
+nzCoSkyItemNumber: 1000701
+nzCoSkyPortType: SKYBOXSC
+nzCoSkyOccurrenceType: SKYBOX
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:302,Direct Debit Discount:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:615,VOD Only:620,SKY box Subscription
+nzcoskyaccountnumber: 100000502
+nzCoSkySerialNumber: 62340013
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+createTimestamp: 20180121132939Z
+ds-sync-hist: nzcoskyoccurrencenumber:00000174c2eca03527770001ede6:repl:1
+ds-sync-hist: nzcoskyitemnumber:00000174c2eca03527770001ede6:repl:1000701
+ds-sync-hist: nzcoskyporttype:00000174c2eca03527770001ede6:repl:SKYBOXSC
+ds-sync-hist: nzcoskyoccurrencetype:00000174c2eca03527770001ede6:repl:SKYBOX
+ds-sync-hist: nzcoskyaccountnumber:00000174c2eca03527770001ede6:repl:100000502
+ds-sync-hist: nzcoskyentitlements:00000174c2eca03527770001ede6:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:302,Direct Debit Discount:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:615,VOD Only:620,SKY box Subscription
+ds-sync-hist: modifytimestamp:00000174c2eca03527770001ede6:repl:20200925014201Z
+ds-sync-hist: nzcoskyaccount:00000174c2eca03527770001ede6:repl:nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000174c2eca03527770001ede6:repl:cn=Directory Manager
+entryUUID: fbf4c693-8c53-4796-956a-1245ce807ad8
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20200925014201Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=62340021,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 2
+nzCoSkyItemNumber: 1000701
+nzCoSkyPortType: SKYBOXSC
+nzCoSkyOccurrenceType: SKYBOX
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:615,VOD Only:620,SKY box Subscription
+nzcoskyaccountnumber: 100000502
+nzCoSkySerialNumber: 62340021
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+createTimestamp: 20180121132939Z
+ds-sync-hist: nzcoskyoccurrencenumber:00000174c2eca03527770001ede7:repl:2
+ds-sync-hist: nzcoskyitemnumber:00000174c2eca03527770001ede7:repl:1000701
+ds-sync-hist: nzcoskyporttype:00000174c2eca03527770001ede7:repl:SKYBOXSC
+ds-sync-hist: nzcoskyoccurrencetype:00000174c2eca03527770001ede7:repl:SKYBOX
+ds-sync-hist: nzcoskyaccountnumber:00000174c2eca03527770001ede7:repl:100000502
+ds-sync-hist: nzcoskyentitlements:00000174c2eca03527770001ede7:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:615,VOD Only:620,SKY box Subscription
+ds-sync-hist: modifytimestamp:00000174c2eca03527770001ede7:repl:20200925014201Z
+ds-sync-hist: nzcoskyaccount:00000174c2eca03527770001ede7:repl:nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000174c2eca03527770001ede7:repl:cn=Directory Manager
+entryUUID: 7fc13085-6be0-4dd7-bae4-0c8eb1cf0c41
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20200925014201Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=62339130,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 3
+nzCoSkyItemNumber: 1000701
+nzCoSkyPortType: SKYBOXSC
+nzCoSkyOccurrenceType: SKYBOX
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:613,PVR Upfront:619,SKY box Upfront
+nzcoskyaccountnumber: 100000502
+nzCoSkySerialNumber: 62339130
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+createTimestamp: 20180121132939Z
+ds-sync-hist: nzcoskyoccurrencenumber:00000174c2eca03627db000141e0:repl:3
+ds-sync-hist: nzcoskyitemnumber:00000174c2eca03627db000141e0:repl:1000701
+ds-sync-hist: nzcoskyporttype:00000174c2eca03627db000141e0:repl:SKYBOXSC
+ds-sync-hist: nzcoskyoccurrencetype:00000174c2eca03627db000141e0:repl:SKYBOX
+ds-sync-hist: nzcoskyaccountnumber:00000174c2eca03627db000141e0:repl:100000502
+ds-sync-hist: nzcoskyentitlements:00000174c2eca03627db000141e0:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:613,PVR Upfront:619,SKY box Upfront
+ds-sync-hist: modifytimestamp:00000174c2eca03627db000141e0:repl:20200925014201Z
+ds-sync-hist: nzcoskyaccount:00000174c2eca03627db000141e0:repl:nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000174c2eca03627db000141e0:repl:cn=Directory Manager
+entryUUID: a59382fc-9979-4c5a-bbd4-d2aaa5bacf9e
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20200925014201Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=20488052,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 4
+nzCoSkyItemNumber: 1000601
+nzCoSkyPortType: MYSKYSC
+nzCoSkyOccurrenceType: MYSKY+
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:610,MY SKY+ box Subscription:612,PVR Subscription:614,+ storage
+nzcoskyaccountnumber: 100000502
+nzCoSkySerialNumber: 20488052
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+createTimestamp: 20180121132939Z
+ds-sync-hist: nzcoskyoccurrencenumber:00000174c2eca0c027db000141e1:repl:4
+ds-sync-hist: nzcoskyitemnumber:00000174c2eca0c027db000141e1:repl:1000601
+ds-sync-hist: nzcoskyporttype:00000174c2eca0c027db000141e1:repl:MYSKYSC
+ds-sync-hist: nzcoskyoccurrencetype:00000174c2eca0c027db000141e1:repl:MYSKY+
+ds-sync-hist: nzcoskyaccountnumber:00000174c2eca0c027db000141e1:repl:100000502
+ds-sync-hist: nzcoskyentitlements:00000174c2eca0c027db000141e1:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:610,MY SKY+ box Subscription:612,PVR Subscription:614,+ storage
+ds-sync-hist: modifytimestamp:00000174c2eca0c027db000141e1:repl:20200925014201Z
+ds-sync-hist: nzcoskyaccount:00000174c2eca0c027db000141e1:repl:nzCoSkyAccountNumber=ICOMS:100000502,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000174c2eca0c027db000141e1:repl:cn=Directory Manager
+entryUUID: bc64bcdd-8ebb-477a-b1a4-791775704e6f
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20200925014201Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=28439123,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 1
+nzCoSkyItemNumber: 1000601
+nzCoSkyPortType: MYSKYSC
+nzCoSkyOccurrenceType: SKYHDI
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:238,SKY Entertainment:242,SKY Sport:256,SKY Arts:260,SoHo:265,The Filipino Channel:304,SKYWATCH Magazine:600,MY SKY HDi Subscription:601,HDi SD Smartcard:612,PVR Subscription
+nzcoskyaccountnumber: 100001301
+nzCoSkySerialNumber: 28439123
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100001301,ou=Accounts,dc=skytv,dc=co,dc=nz
+createTimestamp: 20180121132939Z
+ds-sync-hist: nzcoskyoccurrencenumber:0000017544b8fe65277700023247:repl:1
+ds-sync-hist: nzcoskyitemnumber:0000017544b8fe65277700023247:repl:1000601
+ds-sync-hist: nzcoskyporttype:0000017544b8fe65277700023247:repl:MYSKYSC
+ds-sync-hist: nzcoskyoccurrencetype:0000017544b8fe65277700023247:repl:SKYHDI
+ds-sync-hist: nzcoskyentitlements:0000017544b8fe65277700023247:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:238,SKY Entertainment:242,SKY Sport:256,SKY Arts:260,SoHo:265,The Filipino Channel:304,SKYWATCH Magazine:600,MY SKY HDi Subscription:601,HDi SD Smartcard:612,PVR Subscription
+ds-sync-hist: nzcoskyaccountnumber:0000017544b8fe65277700023247:repl:100001301
+ds-sync-hist: modifytimestamp:0000017544b8fe65277700023247:repl:20201020063615Z
+ds-sync-hist: modifiersname:0000017544b8fe65277700023247:repl:cn=Directory Manager
+ds-sync-hist: nzcoskyaccount:0000017544b8fe65277700023247:repl:nzCoSkyAccountNumber=ICOMS:100001301,ou=Accounts,dc=skytv,dc=co,dc=nz
+entryUUID: c1d71a9f-12f1-4bb7-9979-e8f7bcb4c10a
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20201020063615Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=20369062,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 1
+nzCoSkyItemNumber: 1000601
+nzCoSkyPortType: MYSKYSC
+nzCoSkyOccurrenceType: SKYHDI
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:605,MY SKY HDi Set Top Box:613,PVR Upfront
+nzcoskyaccountnumber: 100001602
+nzCoSkySerialNumber: 20369062
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: nzcoskyoccurrencenumber:00000167bdc84b1f2f080109ad87:repl:1
+ds-sync-hist: nzcoskyitemnumber:00000167bdc84b1f2f080109ad87:repl:1000601
+ds-sync-hist: nzcoskyporttype:00000167bdc84b1f2f080109ad87:repl:MYSKYSC
+ds-sync-hist: nzcoskyoccurrencetype:00000167bdc84b1f2f080109ad87:repl:SKYHDI
+ds-sync-hist: nzcoskyaccountnumber:00000167bdc84b1f2f080109ad87:repl:100001602
+ds-sync-hist: nzcoskyentitlements:00000167bdc84b1f2f080109ad87:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:304,SKYWATCH Magazine:602,HDi HD Smartcard:603,HD Access Ticket:604,HD Access Ticket Credit:605,MY SKY HDi Set Top Box:613,PVR Upfront
+ds-sync-hist: modifytimestamp:00000167bdc84b1f2f080109ad87:repl:20181217200759Z
+ds-sync-hist: nzcoskyaccount:00000167bdc84b1f2f080109ad87:repl:nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000167bdc84b1f2f080109ad87:repl:cn=Directory Manager
+entryUUID: ca2c5358-e8da-4a93-bac5-6c19b71fa808
+createTimestamp: 20180121132939Z
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20181217200759Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=22910715,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 2
+nzCoSkyItemNumber: 1000601
+nzCoSkyPortType: MYSKYSC
+nzCoSkyOccurrenceType: SKYHDI
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:605,MY SKY HDi Set Top Box:613,PVR Upfront
+nzcoskyaccountnumber: 100001602
+nzCoSkySerialNumber: 22910715
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: nzcoskyoccurrencenumber:00000167bdc84b205bc5015fbc71:repl:2
+ds-sync-hist: nzcoskyitemnumber:00000167bdc84b205bc5015fbc71:repl:1000601
+ds-sync-hist: nzcoskyporttype:00000167bdc84b205bc5015fbc71:repl:MYSKYSC
+ds-sync-hist: nzcoskyoccurrencetype:00000167bdc84b205bc5015fbc71:repl:SKYHDI
+ds-sync-hist: nzcoskyaccountnumber:00000167bdc84b205bc5015fbc71:repl:100001602
+ds-sync-hist: nzcoskyentitlements:00000167bdc84b205bc5015fbc71:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:602,HDi HD Smartcard:603,HD Access Ticket:605,MY SKY HDi Set Top Box:613,PVR Upfront
+ds-sync-hist: modifytimestamp:00000167bdc84b205bc5015fbc71:repl:20181217200759Z
+ds-sync-hist: nzcoskyaccount:00000167bdc84b205bc5015fbc71:repl:nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000167bdc84b205bc5015fbc71:repl:cn=Directory Manager
+entryUUID: 2afec9e4-6dfb-43ad-a5dc-19d4098e43f0
+createTimestamp: 20180121132939Z
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20181217200759Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=42581769,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 3
+nzCoSkyItemNumber: 1000601
+nzCoSkyPortType: MYSKYSC
+nzCoSkyOccurrenceType: SKYHDI
+nzCoSkyEntitlements: 001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:600,MY SKY HDi Subscription:602,HDi HD Smartcard:603,HD Access Ticket:612,PVR Subscription
+nzcoskyaccountnumber: 100001602
+nzCoSkySerialNumber: 42581769
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: nzcoskyoccurrencenumber:00000167bdc84b205bc5015fbc72:repl:3
+ds-sync-hist: nzcoskyitemnumber:00000167bdc84b205bc5015fbc72:repl:1000601
+ds-sync-hist: nzcoskyporttype:00000167bdc84b205bc5015fbc72:repl:MYSKYSC
+ds-sync-hist: nzcoskyoccurrencetype:00000167bdc84b205bc5015fbc72:repl:SKYHDI
+ds-sync-hist: nzcoskyaccountnumber:00000167bdc84b205bc5015fbc72:repl:100001602
+ds-sync-hist: nzcoskyentitlements:00000167bdc84b205bc5015fbc72:repl:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:232,Rialto Channel:233,SKY Movies:238,SKY Entertainment:242,SKY Sport:244,Rugby Channel:256,SKY Arts:260,SoHo:600,MY SKY HDi Subscription:602,HDi HD Smartcard:603,HD Access Ticket:612,PVR Subscription
+ds-sync-hist: modifytimestamp:00000167bdc84b205bc5015fbc72:repl:20181217200759Z
+ds-sync-hist: nzcoskyaccount:00000167bdc84b205bc5015fbc72:repl:nzCoSkyAccountNumber=ICOMS:100001602,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: modifiersname:00000167bdc84b205bc5015fbc72:repl:cn=Directory Manager
+entryUUID: 66c05842-db91-4dbd-a2ae-3261fdd261ed
+createTimestamp: 20180121132939Z
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20181217200759Z
+modifiersName: cn=Directory Manager
+
+dn: nzCoSkySerialNumber=66095811,ou=Occurrences,ou=Accounts,dc=skytv,dc=co,dc=nz
+objectClass: nzCoSkyOccurrence
+objectClass: top
+nzCoSkyOccurrenceNumber: 1
+nzCoSkyItemNumber: 1000701
+nzCoSkyPortType: SKYBOXSC
+nzCoSkyOccurrenceType: SKYBOX
+nzCoSkyEntitlements: SKYBOXSC:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:238,SKY Entertainment:242,SKY Sport:260,SoHo:601,HDi SD Smartcard:612,PVR Subscription:620,SKY box Subscription
+nzcoskyaccountnumber: 100001805
+nzCoSkySerialNumber: 66095811
+nzCoSkyAccount: nzCoSkyAccountNumber=ICOMS:100001805,ou=Accounts,dc=skytv,dc=co,dc=nz
+ds-sync-hist: nzcoskyentitlements:00000161dc612a4c2f0800d1a179:repl:SKYBOXSC:001,Force Occurence Service:202,SKY Starter:207,Multiroom:215,MID NTH IS:238,SKY Entertainment:242,SKY Sport:260,SoHo:601,HDi SD Smartcard:612,PVR Subscription:620,SKY box Subscription
+ds-sync-hist: modifytimestamp:00000161dc612a4c2f0800d1a179:repl:20180228122650Z
+ds-sync-hist: modifiersname:00000161dc612a4c2f0800d1a179:repl:cn=Directory Manager
+entryUUID: d1219a8a-0acb-4fd0-b7d5-1e23c0c44ae7
+createTimestamp: 20180121132939Z
+creatorsName: cn=Directory Manager
+modifyTimestamp: 20180228122650Z
+modifiersName: cn=Directory Manager

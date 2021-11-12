@@ -13,26 +13,28 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SequenceWriter;
 import com.ldifbatch.entities.OudAccountExport;
 import com.ldifbatch.entities.mapper.OudAccountExportMapper;
-import com.ldifbatch.repo.OudAccountExportRepo;
-import com.ldifbatch.service.OudAccountExportService;
+import com.ldifbatch.entities.mapper.OudOccuranceExportMapper;
+//import com.ldifbatch.repo.oudOccuranceExportRepo;
+import com.ldifbatch.repo.OudOccuranceExportRepo;
+import com.ldifbatch.service.OudOccuranceExportService;
 @Service
-public class OudAccountExportServiceImpl implements OudAccountExportService {
+public class OudOccuranceExportServiceImpl implements OudOccuranceExportService {
 	@Autowired
-	OudAccountExportRepo oudAccountExportRepo;
+	OudOccuranceExportRepo oudOccuranceExportRepo;
 	@Override
 	public List<OudAccountExport> getDataFromFile() {
 		// TODO Auto-generated method stub
 		List<OudAccountExport> accountExports = new ArrayList<OudAccountExport>();
-		OudAccountExportMapper accountExportMapper = new OudAccountExportMapper(oudAccountExportRepo.getDataFromFile());
-		accountExports = accountExportMapper.getAccountsExports();
+		OudOccuranceExportMapper occuranceExportMapper = new OudOccuranceExportMapper(oudOccuranceExportRepo.getDataFromFile());
+		accountExports = occuranceExportMapper.getAccountsExports();
 		//System.out.println(accountExportMapper.getAccountsExports().get(1));
 		
 		try {
-			File file = new File("C:\\Users\\ve00ym279\\Desktop\\oudAccountExport.json");
+			File file = new File("C:\\Users\\ve00ym279\\Desktop\\oudOccurancesExport.json");
 			FileWriter fileWriter = new FileWriter(file,true);
 			ObjectMapper objectMapper = new ObjectMapper();
 			SequenceWriter seqWriter = objectMapper.writer().writeValues(fileWriter);
-			seqWriter.write(accountExportMapper.getAccountsExports());
+			seqWriter.write(occuranceExportMapper.getAccountsExports());
 //			
 //			objectMapper.writeValue(file,//new File("C:\\Users\\ve00ym279\\Desktop\\oudAccountExport.json"),
 //					accountExportMapper.getAccountsExports());

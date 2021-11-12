@@ -10,13 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ldifbatch.entities.OudAccountExport;
 import com.ldifbatch.service.OudAccountExportService;
+import com.ldifbatch.service.OudOccuranceExportService;
 
 @RestController
 public class AccountController {
 	@Autowired
 	private OudAccountExportService accountExportService;
+	@Autowired
+	private OudOccuranceExportService occuranceExportService;
 	@GetMapping
 	public ResponseEntity<List<OudAccountExport>> getData(){
+		occuranceExportService.getDataFromFile();
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(accountExportService.getDataFromFile());
 	}
 	@GetMapping("test")

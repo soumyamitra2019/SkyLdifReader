@@ -16,9 +16,10 @@ import org.springframework.ldap.core.LdapAttributes;
 import org.springframework.stereotype.Repository;
 
 import com.ldifbatch.repo.OudAccountExportRepo;
+import com.ldifbatch.repo.OudOccuranceExportRepo;
 
 @Repository
-public class OudAccountExportRepoImpl implements OudAccountExportRepo {
+public class OudOccuranceExportRepoImpl implements OudOccuranceExportRepo {
 	//@Autowired
 	//ApplicationContext context;
 	/*
@@ -29,7 +30,7 @@ public class OudAccountExportRepoImpl implements OudAccountExportRepo {
 //	@Autowired
 	LdifReader ldifReader;
 	@Autowired
-	public OudAccountExportRepoImpl(@Qualifier("Account")LdifReader ldifReader) {
+	public OudOccuranceExportRepoImpl(@Qualifier("Occurance")LdifReader ldifReader) {
 		super();
 		this.ldifReader = ldifReader;
 	}
@@ -61,7 +62,7 @@ public class OudAccountExportRepoImpl implements OudAccountExportRepo {
 					break;
 				attributes = ldifReader.read();
 			}
-			//System.out.println(maps);
+			System.out.println(maps);
 			return maps;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
