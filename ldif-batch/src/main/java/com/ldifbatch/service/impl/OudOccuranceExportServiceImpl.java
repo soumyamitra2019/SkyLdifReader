@@ -11,9 +11,8 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SequenceWriter;
-import com.ldifbatch.entities.OudAccountExport;
-import com.ldifbatch.entities.mapper.OudAccountExportMapper;
 import com.ldifbatch.entities.mapper.OudOccuranceExportMapper;
+import com.ldifbatch.entities.occurance.Occurances;
 //import com.ldifbatch.repo.oudOccuranceExportRepo;
 import com.ldifbatch.repo.OudOccuranceExportRepo;
 import com.ldifbatch.service.OudOccuranceExportService;
@@ -22,11 +21,11 @@ public class OudOccuranceExportServiceImpl implements OudOccuranceExportService 
 	@Autowired
 	OudOccuranceExportRepo oudOccuranceExportRepo;
 	@Override
-	public List<OudAccountExport> getDataFromFile() {
+	public List<Occurances> getDataFromFile() {
 		// TODO Auto-generated method stub
-		List<OudAccountExport> accountExports = new ArrayList<OudAccountExport>();
+		List<Occurances> accountExports = new ArrayList<Occurances>();
 		OudOccuranceExportMapper occuranceExportMapper = new OudOccuranceExportMapper(oudOccuranceExportRepo.getDataFromFile());
-		accountExports = occuranceExportMapper.getAccountsExports();
+		accountExports = occuranceExportMapper.getOccurancess();
 		//System.out.println(accountExportMapper.getAccountsExports().get(1));
 		
 		try {
@@ -34,7 +33,7 @@ public class OudOccuranceExportServiceImpl implements OudOccuranceExportService 
 			FileWriter fileWriter = new FileWriter(file,true);
 			ObjectMapper objectMapper = new ObjectMapper();
 			SequenceWriter seqWriter = objectMapper.writer().writeValues(fileWriter);
-			seqWriter.write(occuranceExportMapper.getAccountsExports());
+			seqWriter.write(occuranceExportMapper.getOccurancess());
 //			
 //			objectMapper.writeValue(file,//new File("C:\\Users\\ve00ym279\\Desktop\\oudAccountExport.json"),
 //					accountExportMapper.getAccountsExports());

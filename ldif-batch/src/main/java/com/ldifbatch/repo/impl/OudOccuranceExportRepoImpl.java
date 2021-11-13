@@ -15,7 +15,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.ldap.core.LdapAttributes;
 import org.springframework.stereotype.Repository;
 
-import com.ldifbatch.repo.OudAccountExportRepo;
 import com.ldifbatch.repo.OudOccuranceExportRepo;
 
 @Repository

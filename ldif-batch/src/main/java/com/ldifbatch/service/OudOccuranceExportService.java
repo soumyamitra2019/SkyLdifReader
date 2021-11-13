@@ -2,8 +2,8 @@ package com.ldifbatch.service;
 
 import java.util.List;
 
-import com.ldifbatch.entities.OudAccountExport;
+import com.ldifbatch.entities.occurance.Occurances;
 
 public interface OudOccuranceExportService {
-	List<OudAccountExport> getDataFromFile();
+	List<Occurances> getDataFromFile();
 }
